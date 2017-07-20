@@ -1,0 +1,51 @@
+"framed"
+{
+	"base"		"sandbox"
+	"title"		"FRAMED"
+	"maps"		"^fd_"
+	"menusystem"	"1"
+	"workshopid"	""
+
+	"settings"
+	{
+		1
+		{
+			"name"		"fd_roundtime"
+			"text"		"Max Round Time"
+			"help"		"The maxiumum time of rounds before new round in seconds"
+			"type"		"Numeric"
+			"default"	"20"
+		}
+
+
+		2
+		{
+			"name"		"fd_waittime"
+			"text"		"Time to wait"
+			"help"		"Time to wait before a new round will start (seconds)"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+
+		3
+		{
+			"name"		"fd_player"
+			"text"		"Minimum Players"
+			"help"		"Minimum amount of players before starting new round"
+			"type"		"Numeric"
+			"default"	"4"
+		}
+
+
+		4
+		{
+			"name"		"fd_max_cops"
+			"text"		"Max Cops"
+			"help"		"Max Amount of cops in percent"
+			"type"		"Numeric"
+			"default"	"30"
+		}
+
+	}
+
+}
